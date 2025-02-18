@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <div class="container my-5">
+        <h1>Epace membre privé !</h1>
+        <a href="{{ path("app_edit_psw") }}">Modifier Le Mot de Passe</a>
+    </div>
+
+    {% block editPsw %}{% endblock %}
+{% endblock %}
